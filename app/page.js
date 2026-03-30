@@ -1,5 +1,5 @@
-import Navbar from "@/Components/Navbar";
-import ProductCard from "@/Components/ProductCard";
+import Navbar from "@/Component/Navbar";
+import ProductCard from "@/Component/ProductCard";
 
 async function getProducts() {
     const res = await fetch('https://fakestoreapi.com/products');
