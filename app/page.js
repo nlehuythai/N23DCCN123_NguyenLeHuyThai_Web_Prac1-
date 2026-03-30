@@ -1,5 +1,5 @@
-import Navbar from "@/Component/Navbar";
-import ProductCard from "@/Component/ProductCard";
+import Navbar from "@/Components/Navbar";
+import ProductCard from "@/Components/ProductCard";
 async function getProducts() {
     const res = await fetch('https://fakestoreapi.com/products');
     if (!res.ok) throw new Error('Failed to fetch data');

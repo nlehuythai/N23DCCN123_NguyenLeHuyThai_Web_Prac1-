@@ -1,5 +1,5 @@
 // app/product/[id]/page.js
-import Navbar from "@/components/Navbar";
+import Navbar from "@/Components/Navbar";
 
 async function getProductDetail(id) {
     const res = await fetch(`https://fakestoreapi.com/products/${id}`);
